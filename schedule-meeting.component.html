@@ -1,0 +1,42 @@
+
+<div class="container">
+    <br>
+    <h3>Create a Meeting Schedule</h3>
+
+    <form name="myForm">
+        <hr><br>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputName">Meeting Topic</label>
+                <input name="myName" ng-model="myName" required class="form-control" id="inputName" placeholder="Meeting Topic">
+                <span ng-show="myForm.myName.$touched && myForm.myName.$invalid"></span>
+            </div>
+
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputEmail4">Date</label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Date">
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputEmail4">Location</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Location">
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputEmail4">No.of People</label>
+                <input name="myName" ng-model="myName" required class="form-control" id="inputName" placeholder="No.of People">
+                <span ng-show="myForm.myName.$touched && myForm.myName.$invalid"></span>
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputAddress">Start time</label>
+                <input type="number" class="form-control" id="inputAddress" placeholder="End time">
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputAddress">End time</label>
+                <input type="number" class="form-control" id="inputAddress" placeholder="End time">
+        </div> 
+            <button type="submit" class="btn btn-secondary mt-4">Confirm Meeting</button> 
+            
+        </div>
+        
+</form>
+
+

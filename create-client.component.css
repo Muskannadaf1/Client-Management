@@ -1,0 +1,26 @@
+
+
+
+button{
+    background-color:royalblue;
+    width: 250px;
+    padding: 10px 0;
+    margin: -20px 10px;
+    border-radius: 25px;
+
+
+}
+
+body{
+
+background-color: lightblue;
+    .congratulation-wrapper {
+        max-width: 550px;
+        margin-inline: auto;
+        -webkit-box-shadow: 0 0 20px #f3f3f3;
+        box-shadow: 0 0 20px #f3f3f3;
+        padding: 30px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+}

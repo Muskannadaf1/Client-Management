@@ -1,0 +1,49 @@
+<div class="container">
+    <br> 
+    <h3>Create a Client</h3>
+
+    <form name="myForm">
+
+        <p class="mt-4">Please fill in this form to create a client.</p>
+        <hr><br>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputName">Name</label>
+                <input name="myName" ng-model="myName" required class="form-control" id="inputName" placeholder="Name">
+            
+            </div>
+               
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputEmail4">Email</label>
+                <input name="email" required class="form-control" id="inputEmail" placeholder="Email">
+                <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid"></span>
+
+            </div>
+
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputAddress">Address</label>
+                <input type="Address" class="form-control" id="inputAddress" placeholder="Address">
+                
+               
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputPassword4">Password</label>
+                    <input name="myName" ng-model="myName" required class="form-control" id="inputName" placeholder="Password">
+                    
+            </div>
+            <div class="form-group col-md-6 pt-4">
+                <label for="inputConfirmPassword4">Confirm Password</label>
+                <input name="myName" ng-model="myName" required class="form-control" id="inputName" placeholder="Confirm Password">
+            
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-secondary mt-4">Register Client</button> 
+            </div>
+
+        </div>
+ 
+        
+    </form>
+ 
+    
